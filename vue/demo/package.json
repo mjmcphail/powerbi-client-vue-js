@@ -1,0 +1,26 @@
+{
+	"name": "powerbi-client-vue-js-demo",
+	"version": "1.0.1",
+	"description": "Demo for usage of powerbi-client-vue-js",
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"preview": "vite preview",
+		"demo": "npm run dev"
+	},
+	"license": "MIT",
+	"dependencies": {
+		"@vitejs/plugin-vue": "^5.0.4",
+		"powerbi-client-vue-js": "1.0.3",
+		"powerbi-report-authoring": "^1.1.3",
+		"vite": "^5.1.5",
+		"vue": "^3.4.21"
+	},
+	"devDependencies": {
+		"eslint": "^8.57.0",
+		"eslint-plugin-vue": "^9.22.0",
+		"typescript": "^4.5.4",
+		"vue-jest": "^5.0.0-alpha.10",
+		"vue-tsc": "^0.34.7"
+	}
+}
